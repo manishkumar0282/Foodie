@@ -57,6 +57,23 @@
 		79F7A60B19B8D9C40090C6D0 /* UINavigationController+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A5EA19B8D9C40090C6D0 /* UINavigationController+Extra.m */; };
 		79F7A60C19B8D9C40090C6D0 /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A5EC19B8D9C40090C6D0 /* UIView+Extras.m */; };
 		79F7A60D19B8D9C40090C6D0 /* UIViewController+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A5EE19B8D9C40090C6D0 /* UIViewController+Blocks.m */; };
+		79F7A62819B8DDDA0090C6D0 /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A61219B8DDDA0090C6D0 /* CLIColor.m */; };
+		79F7A62919B8DDDA0090C6D0 /* CPLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A61419B8DDDA0090C6D0 /* CPLog.m */; };
+		79F7A62A19B8DDDA0090C6D0 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A61619B8DDDA0090C6D0 /* DDAbstractDatabaseLogger.m */; };
+		79F7A62B19B8DDDA0090C6D0 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A61819B8DDDA0090C6D0 /* DDASLLogger.m */; };
+		79F7A62C19B8DDDA0090C6D0 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A61A19B8DDDA0090C6D0 /* DDFileLogger.m */; };
+		79F7A62D19B8DDDA0090C6D0 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A61D19B8DDDA0090C6D0 /* DDLog.m */; };
+		79F7A62E19B8DDDA0090C6D0 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A61F19B8DDDA0090C6D0 /* DDTTYLogger.m */; };
+		79F7A62F19B8DDDA0090C6D0 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A62219B8DDDA0090C6D0 /* DDContextFilterLogFormatter.m */; };
+		79F7A63019B8DDDA0090C6D0 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A62419B8DDDA0090C6D0 /* DDDispatchQueueLogFormatter.m */; };
+		79F7A63119B8DDDA0090C6D0 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A62619B8DDDA0090C6D0 /* DDMultiFormatter.m */; };
+		79F7A63219B8DDDA0090C6D0 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79F7A62719B8DDDA0090C6D0 /* README.txt */; };
+		79F7A64119B8DDE50090C6D0 /* DCCrossHairView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A63519B8DDE50090C6D0 /* DCCrossHairView.m */; };
+		79F7A64219B8DDE50090C6D0 /* DCFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A63719B8DDE50090C6D0 /* DCFrameView.m */; };
+		79F7A64319B8DDE50090C6D0 /* DCIntrospect.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A63919B8DDE50090C6D0 /* DCIntrospect.m */; };
+		79F7A64419B8DDE50090C6D0 /* DCStatusBarOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A63C19B8DDE50090C6D0 /* DCStatusBarOverlay.m */; };
+		79F7A64519B8DDE50090C6D0 /* DCTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A63E19B8DDE50090C6D0 /* DCTextView.m */; };
+		79F7A64619B8DDE50090C6D0 /* UIView+DCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7A64019B8DDE50090C6D0 /* UIView+DCAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,6 +175,41 @@
 		79F7A5EC19B8D9C40090C6D0 /* UIView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extras.m"; path = "Categories/UIView+Extras.m"; sourceTree = "<group>"; };
 		79F7A5ED19B8D9C40090C6D0 /* UIViewController+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Blocks.h"; path = "Categories/UIViewController+Blocks.h"; sourceTree = "<group>"; };
 		79F7A5EE19B8D9C40090C6D0 /* UIViewController+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Blocks.m"; path = "Categories/UIViewController+Blocks.m"; sourceTree = "<group>"; };
+		79F7A61119B8DDDA0090C6D0 /* CLIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIColor.h; sourceTree = "<group>"; };
+		79F7A61219B8DDDA0090C6D0 /* CLIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIColor.m; sourceTree = "<group>"; };
+		79F7A61319B8DDDA0090C6D0 /* CPLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPLog.h; sourceTree = "<group>"; };
+		79F7A61419B8DDDA0090C6D0 /* CPLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPLog.m; sourceTree = "<group>"; };
+		79F7A61519B8DDDA0090C6D0 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		79F7A61619B8DDDA0090C6D0 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		79F7A61719B8DDDA0090C6D0 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		79F7A61819B8DDDA0090C6D0 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		79F7A61919B8DDDA0090C6D0 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		79F7A61A19B8DDDA0090C6D0 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		79F7A61B19B8DDDA0090C6D0 /* DDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
+		79F7A61C19B8DDDA0090C6D0 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		79F7A61D19B8DDDA0090C6D0 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		79F7A61E19B8DDDA0090C6D0 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		79F7A61F19B8DDDA0090C6D0 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		79F7A62119B8DDDA0090C6D0 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		79F7A62219B8DDDA0090C6D0 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		79F7A62319B8DDDA0090C6D0 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		79F7A62419B8DDDA0090C6D0 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		79F7A62519B8DDDA0090C6D0 /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
+		79F7A62619B8DDDA0090C6D0 /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
+		79F7A62719B8DDDA0090C6D0 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		79F7A63419B8DDE50090C6D0 /* DCCrossHairView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCrossHairView.h; sourceTree = "<group>"; };
+		79F7A63519B8DDE50090C6D0 /* DCCrossHairView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCrossHairView.m; sourceTree = "<group>"; };
+		79F7A63619B8DDE50090C6D0 /* DCFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFrameView.h; sourceTree = "<group>"; };
+		79F7A63719B8DDE50090C6D0 /* DCFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFrameView.m; sourceTree = "<group>"; };
+		79F7A63819B8DDE50090C6D0 /* DCIntrospect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCIntrospect.h; sourceTree = "<group>"; };
+		79F7A63919B8DDE50090C6D0 /* DCIntrospect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCIntrospect.m; sourceTree = "<group>"; };
+		79F7A63A19B8DDE50090C6D0 /* DCIntrospectSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCIntrospectSettings.h; sourceTree = "<group>"; };
+		79F7A63B19B8DDE50090C6D0 /* DCStatusBarOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCStatusBarOverlay.h; sourceTree = "<group>"; };
+		79F7A63C19B8DDE50090C6D0 /* DCStatusBarOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCStatusBarOverlay.m; sourceTree = "<group>"; };
+		79F7A63D19B8DDE50090C6D0 /* DCTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTextView.h; sourceTree = "<group>"; };
+		79F7A63E19B8DDE50090C6D0 /* DCTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTextView.m; sourceTree = "<group>"; };
+		79F7A63F19B8DDE50090C6D0 /* UIView+DCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DCAdditions.h"; sourceTree = "<group>"; };
+		79F7A64019B8DDE50090C6D0 /* UIView+DCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DCAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +273,7 @@
 		79F7A56B19B8D4EA0090C6D0 /* Foodie */ = {
 			isa = PBXGroup;
 			children = (
+				79F7A60E19B8DDC90090C6D0 /* Third Party */,
 				79F7A5B019B8D9B50090C6D0 /* Categories */,
 				79F7A5A919B8D8100090C6D0 /* Home */,
 				79F7A5A119B8D73E0090C6D0 /* Location Manager */,
@@ -352,6 +405,80 @@
 			name = Categories;
 			sourceTree = "<group>";
 		};
+		79F7A60E19B8DDC90090C6D0 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				79F7A63319B8DDE50090C6D0 /* DCIntrospect-ARC */,
+				79F7A60F19B8DDDA0090C6D0 /* Lumberjack */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		79F7A60F19B8DDDA0090C6D0 /* Lumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				79F7A61019B8DDDA0090C6D0 /* CLI */,
+				79F7A61319B8DDDA0090C6D0 /* CPLog.h */,
+				79F7A61419B8DDDA0090C6D0 /* CPLog.m */,
+				79F7A61519B8DDDA0090C6D0 /* DDAbstractDatabaseLogger.h */,
+				79F7A61619B8DDDA0090C6D0 /* DDAbstractDatabaseLogger.m */,
+				79F7A61719B8DDDA0090C6D0 /* DDASLLogger.h */,
+				79F7A61819B8DDDA0090C6D0 /* DDASLLogger.m */,
+				79F7A61919B8DDDA0090C6D0 /* DDFileLogger.h */,
+				79F7A61A19B8DDDA0090C6D0 /* DDFileLogger.m */,
+				79F7A61B19B8DDDA0090C6D0 /* DDLog+LOGV.h */,
+				79F7A61C19B8DDDA0090C6D0 /* DDLog.h */,
+				79F7A61D19B8DDDA0090C6D0 /* DDLog.m */,
+				79F7A61E19B8DDDA0090C6D0 /* DDTTYLogger.h */,
+				79F7A61F19B8DDDA0090C6D0 /* DDTTYLogger.m */,
+				79F7A62019B8DDDA0090C6D0 /* Extensions */,
+			);
+			path = Lumberjack;
+			sourceTree = "<group>";
+		};
+		79F7A61019B8DDDA0090C6D0 /* CLI */ = {
+			isa = PBXGroup;
+			children = (
+				79F7A61119B8DDDA0090C6D0 /* CLIColor.h */,
+				79F7A61219B8DDDA0090C6D0 /* CLIColor.m */,
+			);
+			path = CLI;
+			sourceTree = "<group>";
+		};
+		79F7A62019B8DDDA0090C6D0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				79F7A62119B8DDDA0090C6D0 /* DDContextFilterLogFormatter.h */,
+				79F7A62219B8DDDA0090C6D0 /* DDContextFilterLogFormatter.m */,
+				79F7A62319B8DDDA0090C6D0 /* DDDispatchQueueLogFormatter.h */,
+				79F7A62419B8DDDA0090C6D0 /* DDDispatchQueueLogFormatter.m */,
+				79F7A62519B8DDDA0090C6D0 /* DDMultiFormatter.h */,
+				79F7A62619B8DDDA0090C6D0 /* DDMultiFormatter.m */,
+				79F7A62719B8DDDA0090C6D0 /* README.txt */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		79F7A63319B8DDE50090C6D0 /* DCIntrospect-ARC */ = {
+			isa = PBXGroup;
+			children = (
+				79F7A63419B8DDE50090C6D0 /* DCCrossHairView.h */,
+				79F7A63519B8DDE50090C6D0 /* DCCrossHairView.m */,
+				79F7A63619B8DDE50090C6D0 /* DCFrameView.h */,
+				79F7A63719B8DDE50090C6D0 /* DCFrameView.m */,
+				79F7A63819B8DDE50090C6D0 /* DCIntrospect.h */,
+				79F7A63919B8DDE50090C6D0 /* DCIntrospect.m */,
+				79F7A63A19B8DDE50090C6D0 /* DCIntrospectSettings.h */,
+				79F7A63B19B8DDE50090C6D0 /* DCStatusBarOverlay.h */,
+				79F7A63C19B8DDE50090C6D0 /* DCStatusBarOverlay.m */,
+				79F7A63D19B8DDE50090C6D0 /* DCTextView.h */,
+				79F7A63E19B8DDE50090C6D0 /* DCTextView.m */,
+				79F7A63F19B8DDE50090C6D0 /* UIView+DCAdditions.h */,
+				79F7A64019B8DDE50090C6D0 /* UIView+DCAdditions.m */,
+			);
+			path = "DCIntrospect-ARC";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -432,6 +559,7 @@
 				79F7A58119B8D4EA0090C6D0 /* Images.xcassets in Resources */,
 				79F7A57919B8D4EA0090C6D0 /* Main_iPhone.storyboard in Resources */,
 				79F7A57019B8D4EA0090C6D0 /* InfoPlist.strings in Resources */,
+				79F7A63219B8DDDA0090C6D0 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,12 +578,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F7A62D19B8DDDA0090C6D0 /* DDLog.m in Sources */,
+				79F7A64319B8DDE50090C6D0 /* DCIntrospect.m in Sources */,
 				79F7A5F519B8D9C40090C6D0 /* NSObject+AssociatedObject.m in Sources */,
+				79F7A63019B8DDDA0090C6D0 /* DDDispatchQueueLogFormatter.m in Sources */,
 				79F7A5FA19B8D9C40090C6D0 /* NSString+Extras.m in Sources */,
 				79F7A60A19B8D9C40090C6D0 /* UINavigationController+Blocks.m in Sources */,
 				79F7A5F119B8D9C40090C6D0 /* NSDictionary+Blocks.m in Sources */,
 				79F7A60019B8D9C40090C6D0 /* Typedefs.m in Sources */,
 				79F7A60719B8D9C40090C6D0 /* UIImage+Extras.m in Sources */,
+				79F7A64419B8DDE50090C6D0 /* DCStatusBarOverlay.m in Sources */,
+				79F7A62C19B8DDDA0090C6D0 /* DDFileLogger.m in Sources */,
 				79F7A5FE19B8D9C40090C6D0 /* NTJSON.m in Sources */,
 				79F7A57619B8D4EA0090C6D0 /* AppDelegate.m in Sources */,
 				79F7A5FB19B8D9C40090C6D0 /* NSString+HTML.m in Sources */,
@@ -463,7 +596,10 @@
 				79F7A5F619B8D9C40090C6D0 /* NSObject+deallocBlock.m in Sources */,
 				79F7A5F019B8D9C40090C6D0 /* NSArray+Blocks.m in Sources */,
 				79F7A60519B8D9C40090C6D0 /* UIColor+Expanded.m in Sources */,
+				79F7A64119B8DDE50090C6D0 /* DCCrossHairView.m in Sources */,
+				79F7A62919B8DDDA0090C6D0 /* CPLog.m in Sources */,
 				79F7A5FF19B8D9C40090C6D0 /* OrderedDictionary.m in Sources */,
+				79F7A64619B8DDE50090C6D0 /* UIView+DCAdditions.m in Sources */,
 				79F7A60819B8D9C40090C6D0 /* UILabel+Extras.m in Sources */,
 				79F7A5AF19B8D8520090C6D0 /* HomeVC+TopBar.m in Sources */,
 				79F7A5FC19B8D9C40090C6D0 /* NSURLRequest+Extras.m in Sources */,
@@ -472,17 +608,25 @@
 				79F7A60C19B8D9C40090C6D0 /* UIView+Extras.m in Sources */,
 				79F7A5F819B8D9C40090C6D0 /* NSObject+Swizzle.m in Sources */,
 				79F7A5F419B8D9C40090C6D0 /* NSNumber+Extras.m in Sources */,
+				79F7A62F19B8DDDA0090C6D0 /* DDContextFilterLogFormatter.m in Sources */,
 				79F7A60319B8D9C40090C6D0 /* UIAlertView+BlockButtons.m in Sources */,
+				79F7A62B19B8DDDA0090C6D0 /* DDASLLogger.m in Sources */,
 				79F7A60119B8D9C40090C6D0 /* UIActionSheet+BlockButtons.m in Sources */,
+				79F7A63119B8DDDA0090C6D0 /* DDMultiFormatter.m in Sources */,
 				79F7A60419B8D9C40090C6D0 /* UIButton+Extras.m in Sources */,
 				79F7A60219B8D9C40090C6D0 /* UIActionSheet+Extras.m in Sources */,
 				79F7A60919B8D9C40090C6D0 /* UILabel+VerticalAlignment.m in Sources */,
 				79F7A60B19B8D9C40090C6D0 /* UINavigationController+Extra.m in Sources */,
+				79F7A62E19B8DDDA0090C6D0 /* DDTTYLogger.m in Sources */,
+				79F7A64219B8DDE50090C6D0 /* DCFrameView.m in Sources */,
+				79F7A62819B8DDDA0090C6D0 /* CLIColor.m in Sources */,
 				79F7A5F319B8D9C40090C6D0 /* NSMutableArray+Stack.m in Sources */,
 				79F7A60619B8D9C40090C6D0 /* UIDevice+Extras.m in Sources */,
+				79F7A64519B8DDE50090C6D0 /* DCTextView.m in Sources */,
 				79F7A5F219B8D9C40090C6D0 /* NSDictionary+Types.m in Sources */,
 				79F7A5FD19B8D9C40090C6D0 /* NTAssetJSON.m in Sources */,
 				79F7A5AC19B8D8340090C6D0 /* HomeVC+Map.m in Sources */,
+				79F7A62A19B8DDDA0090C6D0 /* DDAbstractDatabaseLogger.m in Sources */,
 				79F7A57219B8D4EA0090C6D0 /* main.m in Sources */,
 				79F7A60D19B8D9C40090C6D0 /* UIViewController+Blocks.m in Sources */,
 				79F7A5F919B8D9C40090C6D0 /* NSSet+Blocks.m in Sources */,

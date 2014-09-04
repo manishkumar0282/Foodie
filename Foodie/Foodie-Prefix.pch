@@ -11,6 +11,75 @@
 #endif
 
 #ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>   
+#import <Foundation/Foundation.h>
+
+@import Foundation;
+@import UIKit;
+@import SystemConfiguration;
+@import MobileCoreServices;
+@import Social;
+@import MessageUI;
+@import QuartzCore;
+@import MapKit;
+@import CoreLocation;
+@import AddressBook;
+
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+#pragma clang diagnostic ignored "-Wshorten-64-to-32"
+#pragma clang diagnostic ignored "-Wformat"
+
+#import <Availability.h>
+
+//lumberjack
+//#define APPSTORE    1
+#ifndef APPSTORE
+__unused static int ddLogLevel = LOG_LEVEL_HTTP;
+#else
+__unused static int ddLogLevel = LOG_LEVEL_ERROR;
+#endif
+
+//add test flight
+#import "TestFlight.h"
+#import "CPBaseModel.h"
+#include "CPRestDefs.h"
+#import "GAI.h"
+#import "GAIFields.h"
+
+#ifdef __APPLE__
+#include "TargetConditionals.h"
+#endif
+
+#import "Typedefs.h"
+#import "OrderedDictionary.h"
+#import "BlockButton.h"
+#import "UIActionSheet+BlockButtons.h"
+#import "UIAlertView+BlockButtons.h"
+#import "CALayer+Extras.h"
+#import "NSSet+Blocks.h"
+#import "NSArray+Blocks.h"
+#import "NSDictionary+Blocks.h"
+#import "NSDictionary+Types.h"
+#import "NSMutableArray+Stack.h"
+#import "NSNumber+Extras.h"
+#import "NSString+Extras.h"
+#import "NSObject+deallocBlock.h"
+#import "NSObject+DLIntrospection.h"
+#import "NSObject+Swizzle.h"
+#import "UIImage+Extras.h"
+#import "UIColor+Expanded.h"
+#import "UIButton+Extras.h"
+#import "UILabel+Extras.h"
+#import "UIView+Extras.h"
+#import "NSURLRequest+Extras.h"
+#import "NTJSON.h"
+#import "NTAssetJSON.h"
+#import "AppDelegate.h"
+#import "HTTPRequest.h"
+#import "HTTPPostRequest.h"
+#import "UILabel+VerticalAlignment.h"
+#import "UIView+Chargepoint.h"
+#import "UIActionSheet+Extras.h"
+#import "UIDevice+Extras.h"
+#import "NSString+HTML.h"
 #endif
