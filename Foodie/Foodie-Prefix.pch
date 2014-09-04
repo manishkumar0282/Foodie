@@ -41,9 +41,9 @@ __unused static int ddLogLevel = LOG_LEVEL_ERROR;
 #endif
 
 //add test flight
-#import "TestFlight.h"
-#import "CPBaseModel.h"
-#include "CPRestDefs.h"
+//#import "TestFlight.h"
+//#import "CPBaseModel.h"
+//#include "CPRestDefs.h"
 #import "GAI.h"
 #import "GAIFields.h"
 
@@ -76,10 +76,10 @@ __unused static int ddLogLevel = LOG_LEVEL_ERROR;
 #import "NTJSON.h"
 #import "NTAssetJSON.h"
 #import "AppDelegate.h"
-#import "HTTPRequest.h"
-#import "HTTPPostRequest.h"
+//#import "HTTPRequest.h"
+//#import "HTTPPostRequest.h"
 #import "UILabel+VerticalAlignment.h"
-#import "UIView+Chargepoint.h"
+//#import "UIView+Chargepoint.h"
 #import "UIActionSheet+Extras.h"
 #import "UIDevice+Extras.h"
 #import "NSString+HTML.h"
