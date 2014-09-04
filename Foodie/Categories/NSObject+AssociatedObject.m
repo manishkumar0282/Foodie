@@ -1,7 +1,7 @@
 //
 //  NSObject+AssociatedObject.m
 //
-//  Created by Navi Singh on 2/13/14.
+//  Created by Manish Kumar - Imported on 2/13/14.
 //
 
 #import "NSObject+AssociatedObject.h"

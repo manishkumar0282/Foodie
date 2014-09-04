@@ -2,7 +2,7 @@
 //  CPLog.h
 //  ChargePoint
 //
-//  Created by Navi Singh on 3/18/14
+//  Created by Manish Kumar - Imported on 3/18/14
 //
 //
 

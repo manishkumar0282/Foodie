@@ -2,7 +2,7 @@
 //  UIView+Extras.m
 //  ChargePoint
 //
-//  Created by Navi Singh on 4/15/14.
+//  Created by Manish Kumar - Imported on 4/15/14.
 //  Copyright (c) 2014 Chargepoint Inc.  All rights reserved.
 //
 

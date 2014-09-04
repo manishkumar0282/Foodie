@@ -2,7 +2,7 @@
 //  NSURLRequest+Extras.m
 //  ChargePoint
 //
-//  Created by Navi Singh on 5/6/14.
+//  Created by Manish Kumar - Imported on 5/6/14.
 //  Copyright (c) 2014 Chargepoint Inc. All rights reserved.
 //
 

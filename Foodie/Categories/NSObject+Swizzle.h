@@ -1,7 +1,7 @@
 //
 //  NSObject+Swizzle.h
 //
-//  Created by Navi Singh on 3/29/14.
+//  Created by Manish Kumar - Imported on 3/29/14.
 //
 //  http://blog.carbonfive.com/2013/02/20/monkey-patching-ios-with-objective-c-categories-part-iii-swizzling/
 /*

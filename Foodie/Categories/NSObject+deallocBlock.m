@@ -1,7 +1,7 @@
 //
 //  ACDeallocHandler.m
 //
-//  Created by Navi Singh on 3/29/14.
+//  Created by Manish Kumar - Imported on 3/29/14.
 //
 //  Based on code at https://github.com/atomicbird/atomictools/blob/master/NSData%2BreallyMapped.m
 

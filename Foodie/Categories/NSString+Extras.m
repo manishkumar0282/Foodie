@@ -1,7 +1,7 @@
 //
 //  NSString+Extras.m
 //
-//  Created by Navi Singh on 3/29/14.
+//  Created by Manish Kumar - Imported on 3/29/14.
 //
 //
 

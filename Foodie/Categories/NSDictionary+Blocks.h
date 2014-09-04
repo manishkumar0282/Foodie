@@ -1,7 +1,7 @@
 //
 //  NSDictionary+Blocks.h
 //
-//  Created by Navi Singh on 3/29/14.
+//  Created by Manish Kumar - Imported on 3/29/14.
 //
 // Based on:
 // https://github.com/zwaldowski/BlocksKit/blob/master/BlocksKit/NSArray%2BBlocksKit.h
