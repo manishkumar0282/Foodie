@@ -10,7 +10,7 @@
 
 @implementation HomeVC (Map)
 - (IBAction)didTapMap:(id)sender {
-    self.topSearchBar.text = @"";
-    [self.topSearchBar resignFirstResponder];
+//    self.topSearchBar.text = @"";
+//    [self.topSearchBar resignFirstResponder];
 }
 @end

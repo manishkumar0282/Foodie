@@ -21,7 +21,7 @@
     mobileAnalyticsData[@"device_manufacturer"]        =   @"Apple";
     
     //app specific data
-    mobileAnalyticsData[@"current_mobile_app_version"] =   [NSString stringWithFormat:@"%@",[[NSBundle mainBundle] objectForInfoDictionaryKey:CONST_BUNDLE_VERSION]];    //app version
+    mobileAnalyticsData[@"current_mobile_app_version"] =   [NSString stringWithFormat:@"%@",[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"]];    //app version
     return mobileAnalyticsData;
 }
 

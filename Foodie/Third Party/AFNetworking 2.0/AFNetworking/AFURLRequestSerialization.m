@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 #import "AFURLRequestSerialization.h"
-#import "WebServiceStrings.h"
+//#import "WebServiceStrings.h"
 
 extern NSString * const AFNetworkingErrorDomain;
 
@@ -187,7 +187,7 @@ NSArray * AFQueryStringPairsFromKeyAndValue(NSString *key, id value) {
     self.HTTPShouldHandleCookies = YES;
     self.HTTPShouldUsePipelining = NO;
     self.networkServiceType = NSURLNetworkServiceTypeDefault;
-    self.timeoutInterval = CONST_TIMEOUT;
+    self.timeoutInterval = 180;
 
     self.mutableHTTPRequestHeaders = [NSMutableDictionary dictionary];
 
