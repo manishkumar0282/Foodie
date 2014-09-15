@@ -33,7 +33,7 @@
 
 //lumberjack
 #import "CPLog.h"
-//#define APPSTORE    1
+//#define APPSTORE
 #ifndef APPSTORE
 __unused static int ddLogLevel = LOG_LEVEL_HTTP;
 #else
@@ -50,6 +50,8 @@ __unused static int ddLogLevel = LOG_LEVEL_ERROR;
 #ifdef __APPLE__
 #include "TargetConditionals.h"
 #endif
+#import "NTJSON.h"
+#import "LocationManager.h"
 #import "Constant Files/CommonHeader.h"
 #import "Typedefs.h"
 #import "OrderedDictionary.h"
@@ -73,7 +75,6 @@ __unused static int ddLogLevel = LOG_LEVEL_ERROR;
 #import "UILabel+Extras.h"
 #import "UIView+Extras.h"
 #import "NSURLRequest+Extras.h"
-#import "NTJSON.h"
 #import "NTAssetJSON.h"
 #import "AppDelegate.h"
 //#import "HTTPRequest.h"

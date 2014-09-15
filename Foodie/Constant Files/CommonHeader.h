@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Chargepoint Inc.  All rights reserved.
 //
 
-//#import "Utils.h"
+#import "Utils.h"
 #import "Strings.h"
 #import "ImageStrings.h"
 #import "Constants.h"
