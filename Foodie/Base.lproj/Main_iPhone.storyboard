@@ -562,47 +562,54 @@
             </objects>
             <point key="canvasLocation" x="544" y="1171"/>
         </scene>
-        <!--Root View Controller-->
-        <scene sceneID="tqj-iY-Dna">
+        <!--Left Filter Panel-->
+        <scene sceneID="bG3-rx-Xj2">
             <objects>
-                <tableViewController id="Oqi-Qy-G8I" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="34" sectionHeaderHeight="22" sectionFooterHeight="22" id="WGN-VO-z63">
+                <viewController storyboardIdentifier="LeftFilterPanel" id="ALk-z2-u19" customClass="LeftFilterPanel" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5C5-MT-TYp">
                         <rect key="frame" x="0.0" y="0.0" width="160" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="34" sectionHeaderHeight="22" sectionFooterHeight="22" id="DpD-UR-pql">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="34" id="MqY-db-TxI">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MqY-db-TxI" id="T59-72-eYO">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="U32-Il-VoW">
+                                                    <rect key="frame" x="0.0" y="8" width="130" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btn_filter_led_off.png" highlightedImage="btn_filter_led_on.png" id="kKU-j5-dOp">
+                                                    <rect key="frame" x="138" y="8" width="20" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="ALk-z2-u19" id="HkU-p5-AcN"/>
+                                    <outlet property="delegate" destination="ALk-z2-u19" id="gC9-pk-jN3"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="34" id="aYA-PH-OAO">
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aYA-PH-OAO" id="bji-RE-27v">
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jfe-Gp-jYP">
-                                            <rect key="frame" x="0.0" y="8" width="130" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btn_filter_led_off.png" highlightedImage="btn_filter_led_on.png" id="V00-4q-NW4">
-                                            <rect key="frame" x="138" y="8" width="20" height="20"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        </imageView>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="Oqi-Qy-G8I" id="lL4-yk-VK6"/>
-                            <outlet property="delegate" destination="Oqi-Qy-G8I" id="TvO-NV-OyU"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="1qU-mx-Ux9"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Z0A-G9-VYI"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="160" height="480"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1RH-PD-ScH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YWP-tc-cYU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="772" y="1736"/>
+            <point key="canvasLocation" x="609" y="2245"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="iiB-DF-Gio">
@@ -613,7 +620,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="Oqi-Qy-G8I" kind="relationship" relationship="rootViewController" id="NDr-jg-2A7"/>
+                        <segue destination="ALk-z2-u19" kind="relationship" relationship="rootViewController" id="zbc-fe-hP9"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j51-N8-h0v" userLabel="First Responder" sceneMemberID="firstResponder"/>

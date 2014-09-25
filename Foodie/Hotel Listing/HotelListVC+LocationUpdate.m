@@ -12,9 +12,10 @@
 -(void)locationUpdateDidLoad{
     if (!locationManager) {
         locationManager    =   [LocationManager sharedInstance];
+        [locationManager setDelegate:self];
     }
 
-    if ([locationManager isApplicationAuthorizedToUseLocationServices]) {
+    if ([locationManager isLocationServicesAllowed]) {
         [super showActivityIndicator:[UIColor whiteColor]
                          isTextBlack:YES
                         activityText:NSLocalizedString(@"We are locating you...", nil)
@@ -36,28 +37,30 @@
 }
 
 #pragma mark - CLLocationManagerDelegate
-
-- (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error
-{
-    NSLog(@"didFailWithError: %@", error);
-    UIAlertView *errorAlert = [[UIAlertView alloc]
-                               initWithTitle:@"Error" message:@"Failed to Get Your Location" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-    [errorAlert show];
-//    [locationManager stopUpdatingLocation];
+-(void)didUpdateToLocation:(CLLocation*)location{
+    NSString    *strLocation    =   [NSString stringWithFormat:@"%f, %f",location.coordinate.latitude, location.coordinate.longitude];
+    dispatch_async(dispatch_queue_create("searchForAddress", NULL), ^{
+        //search
+        [locationManager getAddressFromLocation:location completion:^(CLPlacemark *placemark){
+            if (placemark) {
+//                //save address for future references
+//                UIAlertView *errorAlert = [[UIAlertView alloc]
+//                                           initWithTitle:@"address" message:locationManager.fir delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+//                [errorAlert show];
+            }
+        }];
+    });
     [super hideActivityIndicator];
 }
 
-- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations{
-    CLLocation  *firstLocation  =   [locations lastObject];
-    NSLogInfo(@"didUpdateToLocation: %@", firstLocation);
+-(void)onParsingUserPlacemark{
+    //save address for future references
+    UIAlertView *errorAlert = [[UIAlertView alloc]
+                               initWithTitle:@"address" message:locationManager.locality delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [errorAlert show];
+
+}
+-(void)onGetAddressFromLocation:(CLPlacemark*)placemark{
     
-    [locationManager stopUpdatingLocation];
-
-    NSString    *strLocation    =   [NSString stringWithFormat:@"%f, %f",firstLocation.coordinate.latitude, firstLocation.coordinate.longitude];
-    UIAlertView *errorAlert = [[UIAlertView alloc]
-                               initWithTitle:@"Location" message:strLocation delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-    [errorAlert show];
-    [super hideActivityIndicator];
 }
-
 @end

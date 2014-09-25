@@ -6,8 +6,10 @@
 //  Copyright (c) 2014 Manish Kumar. All rights reserved.
 //
 
-#import "BaseUIViewController.h"
+//#import "BaseUIViewController.h"
 
-@interface LeftFilterPanel : BaseUIViewController
+@interface LeftFilterPanel : UIView
 +(instancetype)instantiateFromStoryboard;
+-(void)slideInFromLeft:(BoolBlock)completion;
+
 @end

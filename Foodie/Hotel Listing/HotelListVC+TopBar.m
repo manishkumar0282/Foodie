@@ -47,28 +47,35 @@
 
 //    LeftPanel *panel = [LeftPanel createPanel];
 //    [self setSlidingPanel:panel];
-    [self.btnFilter setSelected:YES];
+//    [self.btnFilter setSelected:YES];
+    self.btnFilter.selected =   !self.btnFilter.selected;
 
+    NSString    *strMessage =   @"show filter";
+    if (!self.btnFilter.selected) {
+strMessage =   @"hide filter";
+    }
+
+    [UIAlertView showWithMessage:strMessage];
 //    CGPoint adjust = [self.btnFilter convertPoint:self.btnFilter.frame.origin toView:[UIApplication sharedApplication].keyWindow.rootViewController.view];
-
+//
 //    CGFloat top = self.btnFilter.bottom + adjust.y;
-//    leftPanel.top = top;
+//    leftPanel.view.top = top;
 //
 //    CGSize bounds = [UIApplication sharedApplication].keyWindow.rootViewController.view.frame.size;
 //    CGFloat bottom = self.isLandscape ? bounds.width : bounds.height;
 //
-//    [panel adjustBottomTo:bottom];
-//    [panel slideInFromLeft:nil];
+//    [leftPanel.view adjustBottomTo:bottom];
+//    [leftPanel slideInFromLeft:nil];
 }
 
 - (IBAction)didTouchSearchButton:(id)sender {
     NSLogUser(@"");
-    self.view.top = -self.view.frame.size.height;
-    [UIView animateWithDuration:0.5
-                     animations:^{
-                         self.view.top = 20;
-                     }
-                     completion:nil];
+//    self.view.top = -self.view.frame.size.height;
+//    [UIView animateWithDuration:0.5
+//                     animations:^{
+//                         self.view.top = 20;
+//                     }
+//                     completion:nil];
 //    SearchPanel *panel = [SearchPanel createPanel];
 //    [self setSlidingPanel:panel];
 //

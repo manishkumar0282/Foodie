@@ -8,7 +8,7 @@
 
 #import "BaseUIViewController.h"
 
-@interface HotelListVC : BaseUIViewController
+@interface HotelListVC : BaseUIViewController <LocationManagerProtocol>
 {
     LocationManager   *locationManager;
 }

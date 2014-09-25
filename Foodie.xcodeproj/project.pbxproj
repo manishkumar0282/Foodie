@@ -19,9 +19,11 @@
 		293AB2EF19C6CBE300BEF5BA /* btn_filter_led_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 293AB2EB19C6CBE300BEF5BA /* btn_filter_led_on@2x.png */; };
 		293AB2F219C6CEA700BEF5BA /* btn_close_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 293AB2F019C6CEA700BEF5BA /* btn_close_normal.png */; };
 		293AB2F319C6CEA700BEF5BA /* btn_close_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 293AB2F119C6CEA700BEF5BA /* btn_close_normal@2x.png */; };
+		293AB2F919C6D16E00BEF5BA /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 293AB2F819C6D16E00BEF5BA /* Utils.m */; };
+		294DD93819C72D91003A6612 /* BaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 294DD93519C72D91003A6612 /* BaseManager.m */; };
+		294DD93919C72D91003A6612 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 294DD93719C72D91003A6612 /* LocationManager.m */; };
 		29613E3019BF490300F2E541 /* BaseUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29613E2F19BF490300F2E541 /* BaseUIViewController.m */; };
 		29613E3319BF4AC200F2E541 /* ActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 29613E3219BF4AC200F2E541 /* ActivityIndicator.m */; };
-		29613E3619BF4BB900F2E541 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 29613E3519BF4BB900F2E541 /* Utils.m */; };
 		2974A8BD19BE171E00B3D89A /* HotelListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A8BC19BE171E00B3D89A /* HotelListVC.m */; };
 		2974A8C019BE1AB800B3D89A /* HotelListVC+TopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A8BF19BE1AB800B3D89A /* HotelListVC+TopBar.m */; };
 		2974A8C419BE23DF00B3D89A /* map_search_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2974A8C219BE23DF00B3D89A /* map_search_icon.png */; };
@@ -30,7 +32,6 @@
 		2974A8C919BE25A300B3D89A /* search_field@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2974A8C719BE25A300B3D89A /* search_field@2x.png */; };
 		2974A8CC19BE25DD00B3D89A /* btn_filters_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2974A8CA19BE25DD00B3D89A /* btn_filters_normal.png */; };
 		2974A8CD19BE25DD00B3D89A /* btn_filters_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2974A8CB19BE25DD00B3D89A /* btn_filters_normal@2x.png */; };
-		2974A8D019BE279900B3D89A /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A8CF19BE279900B3D89A /* LocationManager.m */; };
 		2974A8E019BE2FA800B3D89A /* HotelListVC+LocationUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A8DF19BE2FA800B3D89A /* HotelListVC+LocationUpdate.m */; };
 		79F7A56619B8D4EA0090C6D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F7A56519B8D4EA0090C6D0 /* Foundation.framework */; };
 		79F7A56819B8D4EA0090C6D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F7A56719B8D4EA0090C6D0 /* CoreGraphics.framework */; };
@@ -152,12 +153,16 @@
 		293AB2EB19C6CBE300BEF5BA /* btn_filter_led_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_filter_led_on@2x.png"; sourceTree = "<group>"; };
 		293AB2F019C6CEA700BEF5BA /* btn_close_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close_normal.png; sourceTree = "<group>"; };
 		293AB2F119C6CEA700BEF5BA /* btn_close_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_close_normal@2x.png"; sourceTree = "<group>"; };
+		293AB2F719C6D16E00BEF5BA /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		293AB2F819C6D16E00BEF5BA /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		294DD93419C72D91003A6612 /* BaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseManager.h; path = "Location Manager/BaseManager.h"; sourceTree = "<group>"; };
+		294DD93519C72D91003A6612 /* BaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseManager.m; path = "Location Manager/BaseManager.m"; sourceTree = "<group>"; };
+		294DD93619C72D91003A6612 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationManager.h; path = "Location Manager/LocationManager.h"; sourceTree = "<group>"; };
+		294DD93719C72D91003A6612 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationManager.m; path = "Location Manager/LocationManager.m"; sourceTree = "<group>"; };
 		29613E2E19BF490300F2E541 /* BaseUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUIViewController.h; sourceTree = "<group>"; };
 		29613E2F19BF490300F2E541 /* BaseUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUIViewController.m; sourceTree = "<group>"; };
 		29613E3119BF4AC200F2E541 /* ActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityIndicator.h; sourceTree = "<group>"; };
 		29613E3219BF4AC200F2E541 /* ActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicator.m; sourceTree = "<group>"; };
-		29613E3419BF4BB900F2E541 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
-		29613E3519BF4BB900F2E541 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		2974A8BB19BE171E00B3D89A /* HotelListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotelListVC.h; path = "Hotel LIsting/HotelListVC.h"; sourceTree = "<group>"; };
 		2974A8BC19BE171E00B3D89A /* HotelListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HotelListVC.m; path = "Hotel LIsting/HotelListVC.m"; sourceTree = "<group>"; };
 		2974A8BE19BE1AB800B3D89A /* HotelListVC+TopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HotelListVC+TopBar.h"; path = "Hotel Listing/HotelListVC+TopBar.h"; sourceTree = "<group>"; };
@@ -168,8 +173,6 @@
 		2974A8C719BE25A300B3D89A /* search_field@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search_field@2x.png"; sourceTree = "<group>"; };
 		2974A8CA19BE25DD00B3D89A /* btn_filters_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_filters_normal.png; sourceTree = "<group>"; };
 		2974A8CB19BE25DD00B3D89A /* btn_filters_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_filters_normal@2x.png"; sourceTree = "<group>"; };
-		2974A8CE19BE279900B3D89A /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationManager.h; path = "Location Manager/LocationManager.h"; sourceTree = "<group>"; };
-		2974A8CF19BE279900B3D89A /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationManager.m; path = "Location Manager/LocationManager.m"; sourceTree = "<group>"; };
 		2974A8DE19BE2FA800B3D89A /* HotelListVC+LocationUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HotelListVC+LocationUpdate.h"; path = "Hotel Listing/HotelListVC+LocationUpdate.h"; sourceTree = "<group>"; };
 		2974A8DF19BE2FA800B3D89A /* HotelListVC+LocationUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "HotelListVC+LocationUpdate.m"; path = "Hotel Listing/HotelListVC+LocationUpdate.m"; sourceTree = "<group>"; };
 		79F7A56219B8D4EA0090C6D0 /* Foodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -431,10 +434,10 @@
 		29613E2D19BF490300F2E541 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				293AB2F719C6D16E00BEF5BA /* Utils.h */,
+				293AB2F819C6D16E00BEF5BA /* Utils.m */,
 				292CEA6919BF7CF600800D0A /* BaseTableViewCell.h */,
 				292CEA6A19BF7CF600800D0A /* BaseTableViewCell.m */,
-				29613E3419BF4BB900F2E541 /* Utils.h */,
-				29613E3519BF4BB900F2E541 /* Utils.m */,
 				29613E3119BF4AC200F2E541 /* ActivityIndicator.h */,
 				29613E3219BF4AC200F2E541 /* ActivityIndicator.m */,
 				29613E2E19BF490300F2E541 /* BaseUIViewController.h */,
@@ -566,8 +569,10 @@
 		79F7A5A119B8D73E0090C6D0 /* Location Manager */ = {
 			isa = PBXGroup;
 			children = (
-				2974A8CE19BE279900B3D89A /* LocationManager.h */,
-				2974A8CF19BE279900B3D89A /* LocationManager.m */,
+				294DD93419C72D91003A6612 /* BaseManager.h */,
+				294DD93519C72D91003A6612 /* BaseManager.m */,
+				294DD93619C72D91003A6612 /* LocationManager.h */,
+				294DD93719C72D91003A6612 /* LocationManager.m */,
 			);
 			name = "Location Manager";
 			sourceTree = "<group>";
@@ -970,7 +975,6 @@
 				79F7A7AF19B9B7E20090C6D0 /* UILabel+VerticalAlignment.m in Sources */,
 				79F7A72619B8E1720090C6D0 /* TTTAddressFormatter.m in Sources */,
 				79F7A68319B8DEF80090C6D0 /* CPLog.m in Sources */,
-				2974A8D019BE279900B3D89A /* LocationManager.m in Sources */,
 				79F7A68A19B8DEF80090C6D0 /* DDDispatchQueueLogFormatter.m in Sources */,
 				79F7A7B019B9B7E20090C6D0 /* UINavigationController+Blocks.m in Sources */,
 				79F7A72819B8E1720090C6D0 /* TTTColorFormatter.m in Sources */,
@@ -987,7 +991,6 @@
 				79F7A79619B9B7E20090C6D0 /* NSDictionary+Blocks.m in Sources */,
 				79F7A57619B8D4EA0090C6D0 /* AppDelegate.m in Sources */,
 				79F7A79819B9B7E20090C6D0 /* NSMutableArray+Stack.m in Sources */,
-				29613E3619BF4BB900F2E541 /* Utils.m in Sources */,
 				79F7A79C19B9B7E20090C6D0 /* NSObject+DLIntrospection.m in Sources */,
 				79F7A68719B8DEF80090C6D0 /* DDLog.m in Sources */,
 				79F7A72A19B8E1720090C6D0 /* TTTOrdinalNumberFormatter.m in Sources */,
@@ -1002,6 +1005,7 @@
 				292CEA6B19BF7CF600800D0A /* BaseTableViewCell.m in Sources */,
 				79F7A79F19B9B7E20090C6D0 /* NSString+Extras.m in Sources */,
 				29613E3019BF490300F2E541 /* BaseUIViewController.m in Sources */,
+				294DD93819C72D91003A6612 /* BaseManager.m in Sources */,
 				79F7A72C19B8E1720090C6D0 /* TTTUnitOfInformationFormatter.m in Sources */,
 				79F7A68819B8DEF80090C6D0 /* DDTTYLogger.m in Sources */,
 				79F7A5AF19B8D8520090C6D0 /* HomeVC+TopBar.m in Sources */,
@@ -1009,6 +1013,7 @@
 				79F7A6A419B8DF620090C6D0 /* AFHTTPSessionManager.m in Sources */,
 				29613E3319BF4AC200F2E541 /* ActivityIndicator.m in Sources */,
 				79F7A68919B8DEF80090C6D0 /* DDContextFilterLogFormatter.m in Sources */,
+				293AB2F919C6D16E00BEF5BA /* Utils.m in Sources */,
 				79F7A7AB19B9B7E20090C6D0 /* UIDevice-Hardware.m in Sources */,
 				79F7A7A319B9B7E20090C6D0 /* NTJSON.m in Sources */,
 				293AB2E619C6CAC800BEF5BA /* LeftFilterPanel.m in Sources */,
@@ -1044,6 +1049,7 @@
 				79F7A6AA19B8DF620090C6D0 /* AFURLSessionManager.m in Sources */,
 				79F7A67C19B8DEF80090C6D0 /* DCFrameView.m in Sources */,
 				79F7A7A519B9B7E20090C6D0 /* Typedefs.m in Sources */,
+				294DD93919C72D91003A6612 /* LocationManager.m in Sources */,
 				79F7A79B19B9B7E20090C6D0 /* NSObject+deallocBlock.m in Sources */,
 				79F7A5AC19B8D8340090C6D0 /* HomeVC+Map.m in Sources */,
 				79F7A7AD19B9B7E20090C6D0 /* UIImage+Extras.m in Sources */,

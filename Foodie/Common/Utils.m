@@ -10,7 +10,7 @@
 
 #import "CommonHeader.h"
 //#import "StationData.h"
-#import "LocationManager.h"
+//#import "LocationManager.h"
 //#import "ImageDownloadManager.h"
 //#import "UIButton+AFNetworking.h"
 //#import "UIImageView+AFNetworking.h"
@@ -1212,9 +1212,9 @@
 
 +(void)initLocationServices:(id)sender
 {
-    LocationManager *locationManager =   [LocationManager sharedInstance];
-    [locationManager setDelegate:sender];
-    [locationManager startUpdatingLocation];
+//    LocationManager *locationManager =   [LocationManager sharedInstance];
+//    [locationManager setDelegate:sender];
+//    [locationManager startUpdatingLocation];
 }
 
 +(void)addShadow:(id)obj{

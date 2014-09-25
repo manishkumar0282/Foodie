@@ -50,10 +50,10 @@ __unused static int ddLogLevel = LOG_LEVEL_ERROR;
 #ifdef __APPLE__
 #include "TargetConditionals.h"
 #endif
+#import "Typedefs.h"
 #import "NTJSON.h"
 #import "LocationManager.h"
 #import "Constant Files/CommonHeader.h"
-#import "Typedefs.h"
 #import "OrderedDictionary.h"
 #import "BlockButton.h"
 #import "UIActionSheet+BlockButtons.h"
